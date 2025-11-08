@@ -1,0 +1,468 @@
+2025-11-07 23:43:19,581 | INFO | root | news | month=202502 rows=1 file=data/raw/ecommerce_news_202502.csv
+2025-11-07 23:43:19,583 | INFO | root | news | month=202503 rows=2 file=data/raw/ecommerce_news_202503.csv
+2025-11-07 23:43:19,585 | INFO | root | news | month=202504 rows=4 file=data/raw/ecommerce_news_202504.csv
+2025-11-07 23:43:19,587 | INFO | root | news | month=202505 rows=4 file=data/raw/ecommerce_news_202505.csv
+2025-11-07 23:43:19,588 | INFO | root | news | month=202506 rows=3 file=data/raw/ecommerce_news_202506.csv
+2025-11-07 23:43:19,591 | INFO | root | news | month=202507 rows=4 file=data/raw/ecommerce_news_202507.csv
+2025-11-07 23:43:19,593 | INFO | root | news | month=202508 rows=7 file=data/raw/ecommerce_news_202508.csv
+2025-11-07 23:43:19,596 | INFO | root | news | month=202509 rows=12 file=data/raw/ecommerce_news_202509.csv
+2025-11-07 23:43:19,598 | INFO | root | news | month=202510 rows=7 file=data/raw/ecommerce_news_202510.csv
+2025-11-07 23:43:19,601 | INFO | root | news | month=202511 rows=56 file=data/raw/ecommerce_news_202511.csv
+2025-11-07 23:43:27,242 | INFO | root | Expecting Olist CSVs placed in data/raw/olist_* (orders, items, products, sellers, reviews).
+2025-11-07 23:50:32,880 | INFO | root | news | month=202502 rows=1 file=data/raw/ecommerce_news_202502.csv
+2025-11-07 23:50:32,882 | INFO | root | news | month=202503 rows=2 file=data/raw/ecommerce_news_202503.csv
+2025-11-07 23:50:32,884 | INFO | root | news | month=202504 rows=4 file=data/raw/ecommerce_news_202504.csv
+2025-11-07 23:50:32,885 | INFO | root | news | month=202505 rows=4 file=data/raw/ecommerce_news_202505.csv
+2025-11-07 23:50:32,887 | INFO | root | news | month=202506 rows=3 file=data/raw/ecommerce_news_202506.csv
+2025-11-07 23:50:32,889 | INFO | root | news | month=202507 rows=4 file=data/raw/ecommerce_news_202507.csv
+2025-11-07 23:50:32,891 | INFO | root | news | month=202508 rows=7 file=data/raw/ecommerce_news_202508.csv
+2025-11-07 23:50:32,893 | INFO | root | news | month=202509 rows=12 file=data/raw/ecommerce_news_202509.csv
+2025-11-07 23:50:32,895 | INFO | root | news | month=202510 rows=7 file=data/raw/ecommerce_news_202510.csv
+2025-11-07 23:50:32,898 | INFO | root | news | month=202511 rows=56 file=data/raw/ecommerce_news_202511.csv
+2025-11-08 00:02:27,204 | INFO | root | Downloading Olist Brazilian E-commerce dataset from Kaggle...
+2025-11-08 00:02:36,874 | INFO | root | Loaded olist_sellers_dataset.csv as 'olist_sellers_dataset' with shape (3095, 4)
+2025-11-08 00:02:36,875 | INFO | root | Loaded product_category_name_translation.csv as 'product_category_name_translation' with shape (71, 2)
+2025-11-08 00:02:37,159 | INFO | root | Loaded olist_orders_dataset.csv as 'olist_orders_dataset' with shape (99441, 8)
+2025-11-08 00:02:37,348 | INFO | root | Loaded olist_order_items_dataset.csv as 'olist_order_items_dataset' with shape (112650, 7)
+2025-11-08 00:02:37,476 | INFO | root | Loaded olist_customers_dataset.csv as 'olist_customers_dataset' with shape (99441, 5)
+2025-11-08 00:02:37,972 | INFO | root | Loaded olist_geolocation_dataset.csv as 'olist_geolocation_dataset' with shape (1000163, 5)
+2025-11-08 00:02:38,058 | INFO | root | Loaded olist_order_payments_dataset.csv as 'olist_order_payments_dataset' with shape (103886, 5)
+2025-11-08 00:02:38,319 | INFO | root | Loaded olist_order_reviews_dataset.csv as 'olist_order_reviews_dataset' with shape (99224, 7)
+2025-11-08 00:02:38,353 | INFO | root | Loaded olist_products_dataset.csv as 'olist_products_dataset' with shape (32951, 9)
+2025-11-08 00:02:38,353 | INFO | root | 
+Successfully loaded 9 tables from the Olist dataset.
+2025-11-08 00:02:38,353 | INFO | root | Available tables: olist_sellers_dataset, product_category_name_translation, olist_orders_dataset, olist_order_items_dataset, olist_customers_dataset, olist_geolocation_dataset, olist_order_payments_dataset, olist_order_reviews_dataset, olist_products_dataset
+2025-11-08 00:04:08,468 | INFO | root | news | month=202502 rows=1 file=data/raw/ecommerce_news_202502.csv
+2025-11-08 00:04:08,470 | INFO | root | news | month=202503 rows=2 file=data/raw/ecommerce_news_202503.csv
+2025-11-08 00:04:08,472 | INFO | root | news | month=202504 rows=4 file=data/raw/ecommerce_news_202504.csv
+2025-11-08 00:04:08,473 | INFO | root | news | month=202505 rows=4 file=data/raw/ecommerce_news_202505.csv
+2025-11-08 00:04:08,475 | INFO | root | news | month=202506 rows=3 file=data/raw/ecommerce_news_202506.csv
+2025-11-08 00:04:08,477 | INFO | root | news | month=202507 rows=3 file=data/raw/ecommerce_news_202507.csv
+2025-11-08 00:04:08,479 | INFO | root | news | month=202508 rows=7 file=data/raw/ecommerce_news_202508.csv
+2025-11-08 00:04:08,482 | INFO | root | news | month=202509 rows=12 file=data/raw/ecommerce_news_202509.csv
+2025-11-08 00:04:08,485 | INFO | root | news | month=202510 rows=7 file=data/raw/ecommerce_news_202510.csv
+2025-11-08 00:04:08,487 | INFO | root | news | month=202511 rows=57 file=data/raw/ecommerce_news_202511.csv
+2025-11-08 00:04:15,637 | INFO | root | Downloading Olist Brazilian E-commerce dataset from Kaggle...
+2025-11-08 00:04:16,232 | INFO | root | Loaded olist_sellers_dataset.csv as 'olist_sellers_dataset' with shape (3095, 4)
+2025-11-08 00:04:16,235 | INFO | root | Loaded product_category_name_translation.csv as 'product_category_name_translation' with shape (71, 2)
+2025-11-08 00:04:16,533 | INFO | root | Loaded olist_orders_dataset.csv as 'olist_orders_dataset' with shape (99441, 8)
+2025-11-08 00:04:16,722 | INFO | root | Loaded olist_order_items_dataset.csv as 'olist_order_items_dataset' with shape (112650, 7)
+2025-11-08 00:04:16,912 | INFO | root | Loaded olist_customers_dataset.csv as 'olist_customers_dataset' with shape (99441, 5)
+2025-11-08 00:04:17,418 | INFO | root | Loaded olist_geolocation_dataset.csv as 'olist_geolocation_dataset' with shape (1000163, 5)
+2025-11-08 00:04:17,502 | INFO | root | Loaded olist_order_payments_dataset.csv as 'olist_order_payments_dataset' with shape (103886, 5)
+2025-11-08 00:04:17,775 | INFO | root | Loaded olist_order_reviews_dataset.csv as 'olist_order_reviews_dataset' with shape (99224, 7)
+2025-11-08 00:04:17,812 | INFO | root | Loaded olist_products_dataset.csv as 'olist_products_dataset' with shape (32951, 9)
+2025-11-08 00:04:17,812 | INFO | root | 
+Successfully loaded 9 tables from the Olist dataset.
+2025-11-08 00:04:17,812 | INFO | root | Available tables: olist_sellers_dataset, product_category_name_translation, olist_orders_dataset, olist_order_items_dataset, olist_customers_dataset, olist_geolocation_dataset, olist_order_payments_dataset, olist_order_reviews_dataset, olist_products_dataset
+2025-11-08 00:08:21,679 | INFO | root | news | month=202502 rows=2 file=data/raw/ecommerce_news_202502.csv
+2025-11-08 00:08:21,682 | INFO | root | news | month=202503 rows=2 file=data/raw/ecommerce_news_202503.csv
+2025-11-08 00:08:21,683 | INFO | root | news | month=202504 rows=2 file=data/raw/ecommerce_news_202504.csv
+2025-11-08 00:08:21,685 | INFO | root | news | month=202505 rows=5 file=data/raw/ecommerce_news_202505.csv
+2025-11-08 00:08:21,688 | INFO | root | news | month=202506 rows=3 file=data/raw/ecommerce_news_202506.csv
+2025-11-08 00:08:21,692 | INFO | root | news | month=202507 rows=5 file=data/raw/ecommerce_news_202507.csv
+2025-11-08 00:08:21,699 | INFO | root | news | month=202508 rows=5 file=data/raw/ecommerce_news_202508.csv
+2025-11-08 00:08:21,703 | INFO | root | news | month=202509 rows=10 file=data/raw/ecommerce_news_202509.csv
+2025-11-08 00:08:21,705 | INFO | root | news | month=202510 rows=6 file=data/raw/ecommerce_news_202510.csv
+2025-11-08 00:08:21,713 | INFO | root | news | month=202511 rows=60 file=data/raw/ecommerce_news_202511.csv
+2025-11-08 00:08:29,711 | INFO | root | Downloading Olist Brazilian E-commerce dataset from Kaggle...
+2025-11-08 00:08:30,312 | INFO | root | Loaded olist_sellers_dataset.csv as 'olist_sellers_dataset' with shape (3095, 4)
+2025-11-08 00:08:30,317 | INFO | root | Loaded product_category_name_translation.csv as 'product_category_name_translation' with shape (71, 2)
+2025-11-08 00:08:30,654 | INFO | root | Loaded olist_orders_dataset.csv as 'olist_orders_dataset' with shape (99441, 8)
+2025-11-08 00:08:30,871 | INFO | root | Loaded olist_order_items_dataset.csv as 'olist_order_items_dataset' with shape (112650, 7)
+2025-11-08 00:08:31,008 | INFO | root | Loaded olist_customers_dataset.csv as 'olist_customers_dataset' with shape (99441, 5)
+2025-11-08 00:08:31,517 | INFO | root | Loaded olist_geolocation_dataset.csv as 'olist_geolocation_dataset' with shape (1000163, 5)
+2025-11-08 00:08:31,594 | INFO | root | Loaded olist_order_payments_dataset.csv as 'olist_order_payments_dataset' with shape (103886, 5)
+2025-11-08 00:08:31,863 | INFO | root | Loaded olist_order_reviews_dataset.csv as 'olist_order_reviews_dataset' with shape (99224, 7)
+2025-11-08 00:08:31,901 | INFO | root | Loaded olist_products_dataset.csv as 'olist_products_dataset' with shape (32951, 9)
+2025-11-08 00:08:31,901 | INFO | root | 
+Successfully loaded 9 tables from the Olist dataset.
+2025-11-08 00:08:31,901 | INFO | root | Available tables: olist_sellers_dataset, product_category_name_translation, olist_orders_dataset, olist_order_items_dataset, olist_customers_dataset, olist_geolocation_dataset, olist_order_payments_dataset, olist_order_reviews_dataset, olist_products_dataset
+2025-11-08 00:14:44,398 | INFO | root | Downloading Olist Brazilian E-commerce dataset from Kaggle...
+2025-11-08 00:14:45,045 | INFO | root | Saved olist_sellers_dataset.csv to data/raw/olist_sellers_dataset.csv with shape (3095, 4)
+2025-11-08 00:14:45,047 | INFO | root | Saved product_category_name_translation.csv to data/raw/product_category_name_translation.csv with shape (71, 2)
+2025-11-08 00:14:45,773 | INFO | root | Saved olist_orders_dataset.csv to data/raw/olist_orders_dataset.csv with shape (99441, 8)
+2025-11-08 00:14:46,500 | INFO | root | Saved olist_order_items_dataset.csv to data/raw/olist_order_items_dataset.csv with shape (112650, 7)
+2025-11-08 00:14:47,032 | INFO | root | Saved olist_customers_dataset.csv to data/raw/olist_customers_dataset.csv with shape (99441, 5)
+2025-11-08 00:14:51,735 | INFO | root | Saved olist_geolocation_dataset.csv to data/raw/olist_geolocation_dataset.csv with shape (1000163, 5)
+2025-11-08 00:14:52,195 | INFO | root | Saved olist_order_payments_dataset.csv to data/raw/olist_order_payments_dataset.csv with shape (103886, 5)
+2025-11-08 00:14:53,250 | INFO | root | Saved olist_order_reviews_dataset.csv to data/raw/olist_order_reviews_dataset.csv with shape (99224, 7)
+2025-11-08 00:14:53,634 | INFO | root | Saved olist_products_dataset.csv to data/raw/olist_products_dataset.csv with shape (32951, 9)
+2025-11-08 00:14:53,634 | INFO | root | 
+Successfully downloaded and saved 9 tables to data/raw/
+2025-11-08 00:14:53,634 | INFO | root | Available tables: olist_sellers_dataset, product_category_name_translation, olist_orders_dataset, olist_order_items_dataset, olist_customers_dataset, olist_geolocation_dataset, olist_order_payments_dataset, olist_order_reviews_dataset, olist_products_dataset
+2025-11-08 00:14:53,657 | INFO | root | cleaned_structured | in=data/raw/olist_sellers_dataset.csv out=data/clean/olist_sellers_dataset.csv rows=3095
+2025-11-08 00:14:54,734 | INFO | root | cleaned_structured | in=data/raw/olist_orders_dataset.csv out=data/clean/olist_orders_dataset.csv rows=99441
+2025-11-08 00:14:55,919 | INFO | root | cleaned_structured | in=data/raw/olist_order_items_dataset.csv out=data/clean/olist_order_items_dataset.csv rows=112650
+2025-11-08 00:14:56,895 | INFO | root | cleaned_structured | in=data/raw/olist_customers_dataset.csv out=data/clean/olist_customers_dataset.csv rows=99441
+2025-11-08 00:15:03,061 | INFO | root | cleaned_structured | in=data/raw/olist_geolocation_dataset.csv out=data/clean/olist_geolocation_dataset.csv rows=1000163
+2025-11-08 00:15:03,622 | INFO | root | cleaned_structured | in=data/raw/olist_order_payments_dataset.csv out=data/clean/olist_order_payments_dataset.csv rows=103886
+2025-11-08 00:15:04,986 | INFO | root | cleaned_structured | in=data/raw/olist_order_reviews_dataset.csv out=data/clean/olist_order_reviews_dataset.csv rows=99224
+2025-11-08 00:15:05,455 | INFO | root | cleaned_structured | in=data/raw/olist_products_dataset.csv out=data/clean/olist_products_dataset.csv rows=32951
+2025-11-08 00:16:03,903 | INFO | root | 
+Processing news file: data/raw/ecommerce_news_202506.csv
+2025-11-08 00:16:03,903 | INFO | root | Processing news file: data/raw/ecommerce_news_202506.csv
+2025-11-08 00:16:03,906 | INFO | root | Initial rows: 3
+2025-11-08 00:16:03,906 | INFO | root | After length filter (min 200 chars): 0 rows
+2025-11-08 00:16:03,907 | WARNING | root | No desired columns found in data/raw/ecommerce_news_202506.csv
+2025-11-08 00:16:03,907 | WARNING | root | ⚠️  No valid rows after cleaning: data/raw/ecommerce_news_202506.csv
+2025-11-08 00:16:03,907 | INFO | root | 
+Processing news file: data/raw/ecommerce_news_202507.csv
+2025-11-08 00:16:03,907 | INFO | root | Processing news file: data/raw/ecommerce_news_202507.csv
+2025-11-08 00:16:03,908 | INFO | root | Initial rows: 5
+2025-11-08 00:16:03,909 | INFO | root | After length filter (min 200 chars): 0 rows
+2025-11-08 00:16:03,909 | WARNING | root | No desired columns found in data/raw/ecommerce_news_202507.csv
+2025-11-08 00:16:03,910 | WARNING | root | ⚠️  No valid rows after cleaning: data/raw/ecommerce_news_202507.csv
+2025-11-08 00:16:03,911 | INFO | root | 
+Processing news file: data/raw/ecommerce_news_202511.csv
+2025-11-08 00:16:03,911 | INFO | root | Processing news file: data/raw/ecommerce_news_202511.csv
+2025-11-08 00:16:03,913 | INFO | root | Initial rows: 60
+2025-11-08 00:16:03,914 | INFO | root | After length filter (min 200 chars): 0 rows
+2025-11-08 00:16:03,914 | WARNING | root | No desired columns found in data/raw/ecommerce_news_202511.csv
+2025-11-08 00:16:03,915 | WARNING | root | ⚠️  No valid rows after cleaning: data/raw/ecommerce_news_202511.csv
+2025-11-08 00:16:03,915 | INFO | root | 
+Processing news file: data/raw/ecommerce_news_202505.csv
+2025-11-08 00:16:03,915 | INFO | root | Processing news file: data/raw/ecommerce_news_202505.csv
+2025-11-08 00:16:03,916 | INFO | root | Initial rows: 5
+2025-11-08 00:16:03,916 | INFO | root | After length filter (min 200 chars): 0 rows
+2025-11-08 00:16:03,917 | WARNING | root | No desired columns found in data/raw/ecommerce_news_202505.csv
+2025-11-08 00:16:03,917 | WARNING | root | ⚠️  No valid rows after cleaning: data/raw/ecommerce_news_202505.csv
+2025-11-08 00:16:03,917 | INFO | root | 
+Processing news file: data/raw/ecommerce_news_202504.csv
+2025-11-08 00:16:03,917 | INFO | root | Processing news file: data/raw/ecommerce_news_202504.csv
+2025-11-08 00:16:03,918 | INFO | root | Initial rows: 2
+2025-11-08 00:16:03,918 | INFO | root | After length filter (min 200 chars): 0 rows
+2025-11-08 00:16:03,919 | WARNING | root | No desired columns found in data/raw/ecommerce_news_202504.csv
+2025-11-08 00:16:03,919 | WARNING | root | ⚠️  No valid rows after cleaning: data/raw/ecommerce_news_202504.csv
+2025-11-08 00:16:03,919 | INFO | root | 
+Processing news file: data/raw/ecommerce_news_202510.csv
+2025-11-08 00:16:03,919 | INFO | root | Processing news file: data/raw/ecommerce_news_202510.csv
+2025-11-08 00:16:03,920 | INFO | root | Initial rows: 6
+2025-11-08 00:16:03,920 | INFO | root | After length filter (min 200 chars): 0 rows
+2025-11-08 00:16:03,922 | WARNING | root | No desired columns found in data/raw/ecommerce_news_202510.csv
+2025-11-08 00:16:03,922 | WARNING | root | ⚠️  No valid rows after cleaning: data/raw/ecommerce_news_202510.csv
+2025-11-08 00:16:03,922 | INFO | root | 
+Processing news file: data/raw/ecommerce_news_202503.csv
+2025-11-08 00:16:03,922 | INFO | root | Processing news file: data/raw/ecommerce_news_202503.csv
+2025-11-08 00:16:03,923 | INFO | root | Initial rows: 2
+2025-11-08 00:16:03,924 | INFO | root | After length filter (min 200 chars): 0 rows
+2025-11-08 00:16:03,924 | WARNING | root | No desired columns found in data/raw/ecommerce_news_202503.csv
+2025-11-08 00:16:03,924 | WARNING | root | ⚠️  No valid rows after cleaning: data/raw/ecommerce_news_202503.csv
+2025-11-08 00:16:03,924 | INFO | root | 
+Processing news file: data/raw/ecommerce_news_202502.csv
+2025-11-08 00:16:03,924 | INFO | root | Processing news file: data/raw/ecommerce_news_202502.csv
+2025-11-08 00:16:03,925 | INFO | root | Initial rows: 2
+2025-11-08 00:16:03,926 | INFO | root | After length filter (min 200 chars): 0 rows
+2025-11-08 00:16:03,926 | WARNING | root | No desired columns found in data/raw/ecommerce_news_202502.csv
+2025-11-08 00:16:03,927 | WARNING | root | ⚠️  No valid rows after cleaning: data/raw/ecommerce_news_202502.csv
+2025-11-08 00:16:03,927 | INFO | root | 
+Processing news file: data/raw/ecommerce_news_202509.csv
+2025-11-08 00:16:03,927 | INFO | root | Processing news file: data/raw/ecommerce_news_202509.csv
+2025-11-08 00:16:03,928 | INFO | root | Initial rows: 10
+2025-11-08 00:16:03,928 | INFO | root | After length filter (min 200 chars): 0 rows
+2025-11-08 00:16:03,929 | WARNING | root | No desired columns found in data/raw/ecommerce_news_202509.csv
+2025-11-08 00:16:03,929 | WARNING | root | ⚠️  No valid rows after cleaning: data/raw/ecommerce_news_202509.csv
+2025-11-08 00:16:03,929 | INFO | root | 
+Processing news file: data/raw/ecommerce_news_202508.csv
+2025-11-08 00:16:03,929 | INFO | root | Processing news file: data/raw/ecommerce_news_202508.csv
+2025-11-08 00:16:03,930 | INFO | root | Initial rows: 5
+2025-11-08 00:16:03,930 | INFO | root | After length filter (min 200 chars): 0 rows
+2025-11-08 00:16:03,930 | WARNING | root | No desired columns found in data/raw/ecommerce_news_202508.csv
+2025-11-08 00:16:03,931 | WARNING | root | ⚠️  No valid rows after cleaning: data/raw/ecommerce_news_202508.csv
+2025-11-08 00:16:03,931 | INFO | root | No tweet files found in data/raw/
+2025-11-08 00:16:03,931 | INFO | root | No complaint files found in data/raw/
+2025-11-08 00:17:23,824 | INFO | root | 
+Processing news file: data/raw/ecommerce_news_202506.csv
+2025-11-08 00:17:23,824 | INFO | root | Processing news file: data/raw/ecommerce_news_202506.csv
+2025-11-08 00:17:23,827 | INFO | root | Initial rows: 3
+2025-11-08 00:17:23,829 | WARNING | root | No content in 'text' column in data/raw/ecommerce_news_202506.csv, using 'summary' instead
+2025-11-08 00:17:23,830 | INFO | root | Extracting text from HTML links in summary
+2025-11-08 00:17:23,831 | INFO | root | After length filter (min 200 chars): 0 rows
+2025-11-08 00:17:23,831 | WARNING | root | No desired columns found in data/raw/ecommerce_news_202506.csv
+2025-11-08 00:17:23,831 | WARNING | root | ⚠️  No valid rows after cleaning: data/raw/ecommerce_news_202506.csv
+2025-11-08 00:17:23,831 | INFO | root | 
+Processing news file: data/raw/ecommerce_news_202507.csv
+2025-11-08 00:17:23,831 | INFO | root | Processing news file: data/raw/ecommerce_news_202507.csv
+2025-11-08 00:17:23,833 | INFO | root | Initial rows: 5
+2025-11-08 00:17:23,833 | WARNING | root | No content in 'text' column in data/raw/ecommerce_news_202507.csv, using 'summary' instead
+2025-11-08 00:17:23,833 | INFO | root | Extracting text from HTML links in summary
+2025-11-08 00:17:23,834 | INFO | root | After length filter (min 200 chars): 0 rows
+2025-11-08 00:17:23,834 | WARNING | root | No desired columns found in data/raw/ecommerce_news_202507.csv
+2025-11-08 00:17:23,834 | WARNING | root | ⚠️  No valid rows after cleaning: data/raw/ecommerce_news_202507.csv
+2025-11-08 00:17:23,834 | INFO | root | 
+Processing news file: data/raw/ecommerce_news_202511.csv
+2025-11-08 00:17:23,834 | INFO | root | Processing news file: data/raw/ecommerce_news_202511.csv
+2025-11-08 00:17:23,837 | INFO | root | Initial rows: 60
+2025-11-08 00:17:23,838 | WARNING | root | No content in 'text' column in data/raw/ecommerce_news_202511.csv, using 'summary' instead
+2025-11-08 00:17:23,838 | INFO | root | Extracting text from HTML links in summary
+2025-11-08 00:17:23,839 | INFO | root | After length filter (min 200 chars): 0 rows
+2025-11-08 00:17:23,840 | WARNING | root | No desired columns found in data/raw/ecommerce_news_202511.csv
+2025-11-08 00:17:23,840 | WARNING | root | ⚠️  No valid rows after cleaning: data/raw/ecommerce_news_202511.csv
+2025-11-08 00:17:23,840 | INFO | root | 
+Processing news file: data/raw/ecommerce_news_202505.csv
+2025-11-08 00:17:23,840 | INFO | root | Processing news file: data/raw/ecommerce_news_202505.csv
+2025-11-08 00:17:23,841 | INFO | root | Initial rows: 5
+2025-11-08 00:17:23,841 | WARNING | root | No content in 'text' column in data/raw/ecommerce_news_202505.csv, using 'summary' instead
+2025-11-08 00:17:23,842 | INFO | root | Extracting text from HTML links in summary
+2025-11-08 00:17:23,842 | INFO | root | After length filter (min 200 chars): 0 rows
+2025-11-08 00:17:23,842 | WARNING | root | No desired columns found in data/raw/ecommerce_news_202505.csv
+2025-11-08 00:17:23,843 | WARNING | root | ⚠️  No valid rows after cleaning: data/raw/ecommerce_news_202505.csv
+2025-11-08 00:17:23,843 | INFO | root | 
+Processing news file: data/raw/ecommerce_news_202504.csv
+2025-11-08 00:17:23,843 | INFO | root | Processing news file: data/raw/ecommerce_news_202504.csv
+2025-11-08 00:17:23,844 | INFO | root | Initial rows: 2
+2025-11-08 00:17:23,844 | WARNING | root | No content in 'text' column in data/raw/ecommerce_news_202504.csv, using 'summary' instead
+2025-11-08 00:17:23,844 | INFO | root | Extracting text from HTML links in summary
+2025-11-08 00:17:23,845 | INFO | root | After length filter (min 200 chars): 0 rows
+2025-11-08 00:17:23,845 | WARNING | root | No desired columns found in data/raw/ecommerce_news_202504.csv
+2025-11-08 00:17:23,845 | WARNING | root | ⚠️  No valid rows after cleaning: data/raw/ecommerce_news_202504.csv
+2025-11-08 00:17:23,845 | INFO | root | 
+Processing news file: data/raw/ecommerce_news_202510.csv
+2025-11-08 00:17:23,845 | INFO | root | Processing news file: data/raw/ecommerce_news_202510.csv
+2025-11-08 00:17:23,846 | INFO | root | Initial rows: 6
+2025-11-08 00:17:23,846 | WARNING | root | No content in 'text' column in data/raw/ecommerce_news_202510.csv, using 'summary' instead
+2025-11-08 00:17:23,847 | INFO | root | Extracting text from HTML links in summary
+2025-11-08 00:17:23,847 | INFO | root | After length filter (min 200 chars): 0 rows
+2025-11-08 00:17:23,847 | WARNING | root | No desired columns found in data/raw/ecommerce_news_202510.csv
+2025-11-08 00:17:23,848 | WARNING | root | ⚠️  No valid rows after cleaning: data/raw/ecommerce_news_202510.csv
+2025-11-08 00:17:23,848 | INFO | root | 
+Processing news file: data/raw/ecommerce_news_202503.csv
+2025-11-08 00:17:23,848 | INFO | root | Processing news file: data/raw/ecommerce_news_202503.csv
+2025-11-08 00:17:23,849 | INFO | root | Initial rows: 2
+2025-11-08 00:17:23,849 | WARNING | root | No content in 'text' column in data/raw/ecommerce_news_202503.csv, using 'summary' instead
+2025-11-08 00:17:23,849 | INFO | root | Extracting text from HTML links in summary
+2025-11-08 00:17:23,850 | INFO | root | After length filter (min 200 chars): 0 rows
+2025-11-08 00:17:23,850 | WARNING | root | No desired columns found in data/raw/ecommerce_news_202503.csv
+2025-11-08 00:17:23,850 | WARNING | root | ⚠️  No valid rows after cleaning: data/raw/ecommerce_news_202503.csv
+2025-11-08 00:17:23,850 | INFO | root | 
+Processing news file: data/raw/ecommerce_news_202502.csv
+2025-11-08 00:17:23,850 | INFO | root | Processing news file: data/raw/ecommerce_news_202502.csv
+2025-11-08 00:17:23,851 | INFO | root | Initial rows: 2
+2025-11-08 00:17:23,851 | WARNING | root | No content in 'text' column in data/raw/ecommerce_news_202502.csv, using 'summary' instead
+2025-11-08 00:17:23,851 | INFO | root | Extracting text from HTML links in summary
+2025-11-08 00:17:23,863 | INFO | root | After length filter (min 200 chars): 0 rows
+2025-11-08 00:17:23,863 | WARNING | root | No desired columns found in data/raw/ecommerce_news_202502.csv
+2025-11-08 00:17:23,864 | WARNING | root | ⚠️  No valid rows after cleaning: data/raw/ecommerce_news_202502.csv
+2025-11-08 00:17:23,864 | INFO | root | 
+Processing news file: data/raw/ecommerce_news_202509.csv
+2025-11-08 00:17:23,864 | INFO | root | Processing news file: data/raw/ecommerce_news_202509.csv
+2025-11-08 00:17:23,865 | INFO | root | Initial rows: 10
+2025-11-08 00:17:23,865 | WARNING | root | No content in 'text' column in data/raw/ecommerce_news_202509.csv, using 'summary' instead
+2025-11-08 00:17:23,865 | INFO | root | Extracting text from HTML links in summary
+2025-11-08 00:17:23,866 | INFO | root | After length filter (min 200 chars): 0 rows
+2025-11-08 00:17:23,866 | WARNING | root | No desired columns found in data/raw/ecommerce_news_202509.csv
+2025-11-08 00:17:23,866 | WARNING | root | ⚠️  No valid rows after cleaning: data/raw/ecommerce_news_202509.csv
+2025-11-08 00:17:23,866 | INFO | root | 
+Processing news file: data/raw/ecommerce_news_202508.csv
+2025-11-08 00:17:23,866 | INFO | root | Processing news file: data/raw/ecommerce_news_202508.csv
+2025-11-08 00:17:23,867 | INFO | root | Initial rows: 5
+2025-11-08 00:17:23,868 | WARNING | root | No content in 'text' column in data/raw/ecommerce_news_202508.csv, using 'summary' instead
+2025-11-08 00:17:23,868 | INFO | root | Extracting text from HTML links in summary
+2025-11-08 00:17:23,869 | INFO | root | After length filter (min 200 chars): 0 rows
+2025-11-08 00:17:23,870 | WARNING | root | No desired columns found in data/raw/ecommerce_news_202508.csv
+2025-11-08 00:17:23,870 | WARNING | root | ⚠️  No valid rows after cleaning: data/raw/ecommerce_news_202508.csv
+2025-11-08 00:17:23,871 | INFO | root | No tweet files found in data/raw/
+2025-11-08 00:17:23,871 | INFO | root | No complaint files found in data/raw/
+2025-11-08 00:17:41,230 | INFO | root | 
+Processing news file: data/raw/ecommerce_news_202506.csv
+2025-11-08 00:17:41,230 | INFO | root | Processing news file: data/raw/ecommerce_news_202506.csv
+2025-11-08 00:17:41,233 | INFO | root | Initial rows: 3
+2025-11-08 00:17:41,233 | WARNING | root | No content in 'text' column in data/raw/ecommerce_news_202506.csv, using 'summary' instead
+2025-11-08 00:17:41,234 | INFO | root | Extracting text from HTML links in summary
+2025-11-08 00:17:41,235 | INFO | root | After length filter (min 50 chars): 2 rows
+2025-11-08 00:17:41,453 | INFO | root | ✅ Cleaned news | in=data/raw/ecommerce_news_202506.csv out=data/clean/ecommerce_news_202506.csv rows=2
+2025-11-08 00:17:41,454 | INFO | root | 
+Processing news file: data/raw/ecommerce_news_202507.csv
+2025-11-08 00:17:41,454 | INFO | root | Processing news file: data/raw/ecommerce_news_202507.csv
+2025-11-08 00:17:41,455 | INFO | root | Initial rows: 5
+2025-11-08 00:17:41,456 | WARNING | root | No content in 'text' column in data/raw/ecommerce_news_202507.csv, using 'summary' instead
+2025-11-08 00:17:41,456 | INFO | root | Extracting text from HTML links in summary
+2025-11-08 00:17:41,457 | INFO | root | After length filter (min 50 chars): 3 rows
+2025-11-08 00:17:41,467 | INFO | root | ✅ Cleaned news | in=data/raw/ecommerce_news_202507.csv out=data/clean/ecommerce_news_202507.csv rows=3
+2025-11-08 00:17:41,467 | INFO | root | 
+Processing news file: data/raw/ecommerce_news_202511.csv
+2025-11-08 00:17:41,467 | INFO | root | Processing news file: data/raw/ecommerce_news_202511.csv
+2025-11-08 00:17:41,470 | INFO | root | Initial rows: 60
+2025-11-08 00:17:41,471 | WARNING | root | No content in 'text' column in data/raw/ecommerce_news_202511.csv, using 'summary' instead
+2025-11-08 00:17:41,471 | INFO | root | Extracting text from HTML links in summary
+2025-11-08 00:17:41,472 | INFO | root | After length filter (min 50 chars): 56 rows
+2025-11-08 00:17:41,628 | INFO | root | ✅ Cleaned news | in=data/raw/ecommerce_news_202511.csv out=data/clean/ecommerce_news_202511.csv rows=56
+2025-11-08 00:17:41,628 | INFO | root | 
+Processing news file: data/raw/ecommerce_news_202505.csv
+2025-11-08 00:17:41,628 | INFO | root | Processing news file: data/raw/ecommerce_news_202505.csv
+2025-11-08 00:17:41,630 | INFO | root | Initial rows: 5
+2025-11-08 00:17:41,630 | WARNING | root | No content in 'text' column in data/raw/ecommerce_news_202505.csv, using 'summary' instead
+2025-11-08 00:17:41,630 | INFO | root | Extracting text from HTML links in summary
+2025-11-08 00:17:41,631 | INFO | root | After length filter (min 50 chars): 3 rows
+2025-11-08 00:17:41,640 | INFO | root | ✅ Cleaned news | in=data/raw/ecommerce_news_202505.csv out=data/clean/ecommerce_news_202505.csv rows=3
+2025-11-08 00:17:41,640 | INFO | root | 
+Processing news file: data/raw/ecommerce_news_202504.csv
+2025-11-08 00:17:41,640 | INFO | root | Processing news file: data/raw/ecommerce_news_202504.csv
+2025-11-08 00:17:41,641 | INFO | root | Initial rows: 2
+2025-11-08 00:17:41,642 | WARNING | root | No content in 'text' column in data/raw/ecommerce_news_202504.csv, using 'summary' instead
+2025-11-08 00:17:41,642 | INFO | root | Extracting text from HTML links in summary
+2025-11-08 00:17:41,643 | INFO | root | After length filter (min 50 chars): 2 rows
+2025-11-08 00:17:41,651 | INFO | root | ✅ Cleaned news | in=data/raw/ecommerce_news_202504.csv out=data/clean/ecommerce_news_202504.csv rows=2
+2025-11-08 00:17:41,651 | INFO | root | 
+Processing news file: data/raw/ecommerce_news_202510.csv
+2025-11-08 00:17:41,651 | INFO | root | Processing news file: data/raw/ecommerce_news_202510.csv
+2025-11-08 00:17:41,652 | INFO | root | Initial rows: 6
+2025-11-08 00:17:41,652 | WARNING | root | No content in 'text' column in data/raw/ecommerce_news_202510.csv, using 'summary' instead
+2025-11-08 00:17:41,652 | INFO | root | Extracting text from HTML links in summary
+2025-11-08 00:17:41,653 | INFO | root | After length filter (min 50 chars): 4 rows
+2025-11-08 00:17:41,672 | INFO | root | ✅ Cleaned news | in=data/raw/ecommerce_news_202510.csv out=data/clean/ecommerce_news_202510.csv rows=4
+2025-11-08 00:17:41,672 | INFO | root | 
+Processing news file: data/raw/ecommerce_news_202503.csv
+2025-11-08 00:17:41,672 | INFO | root | Processing news file: data/raw/ecommerce_news_202503.csv
+2025-11-08 00:17:41,673 | INFO | root | Initial rows: 2
+2025-11-08 00:17:41,674 | WARNING | root | No content in 'text' column in data/raw/ecommerce_news_202503.csv, using 'summary' instead
+2025-11-08 00:17:41,674 | INFO | root | Extracting text from HTML links in summary
+2025-11-08 00:17:41,674 | INFO | root | After length filter (min 50 chars): 1 rows
+2025-11-08 00:17:41,679 | INFO | root | ✅ Cleaned news | in=data/raw/ecommerce_news_202503.csv out=data/clean/ecommerce_news_202503.csv rows=1
+2025-11-08 00:17:41,679 | INFO | root | 
+Processing news file: data/raw/ecommerce_news_202502.csv
+2025-11-08 00:17:41,679 | INFO | root | Processing news file: data/raw/ecommerce_news_202502.csv
+2025-11-08 00:17:41,680 | INFO | root | Initial rows: 2
+2025-11-08 00:17:41,680 | WARNING | root | No content in 'text' column in data/raw/ecommerce_news_202502.csv, using 'summary' instead
+2025-11-08 00:17:41,680 | INFO | root | Extracting text from HTML links in summary
+2025-11-08 00:17:41,681 | INFO | root | After length filter (min 50 chars): 2 rows
+2025-11-08 00:17:41,686 | INFO | root | ✅ Cleaned news | in=data/raw/ecommerce_news_202502.csv out=data/clean/ecommerce_news_202502.csv rows=2
+2025-11-08 00:17:41,686 | INFO | root | 
+Processing news file: data/raw/ecommerce_news_202509.csv
+2025-11-08 00:17:41,686 | INFO | root | Processing news file: data/raw/ecommerce_news_202509.csv
+2025-11-08 00:17:41,687 | INFO | root | Initial rows: 10
+2025-11-08 00:17:41,687 | WARNING | root | No content in 'text' column in data/raw/ecommerce_news_202509.csv, using 'summary' instead
+2025-11-08 00:17:41,687 | INFO | root | Extracting text from HTML links in summary
+2025-11-08 00:17:41,688 | INFO | root | After length filter (min 50 chars): 7 rows
+2025-11-08 00:17:41,716 | INFO | root | ✅ Cleaned news | in=data/raw/ecommerce_news_202509.csv out=data/clean/ecommerce_news_202509.csv rows=7
+2025-11-08 00:17:41,716 | INFO | root | 
+Processing news file: data/raw/ecommerce_news_202508.csv
+2025-11-08 00:17:41,716 | INFO | root | Processing news file: data/raw/ecommerce_news_202508.csv
+2025-11-08 00:17:41,717 | INFO | root | Initial rows: 5
+2025-11-08 00:17:41,717 | WARNING | root | No content in 'text' column in data/raw/ecommerce_news_202508.csv, using 'summary' instead
+2025-11-08 00:17:41,718 | INFO | root | Extracting text from HTML links in summary
+2025-11-08 00:17:41,718 | INFO | root | After length filter (min 50 chars): 3 rows
+2025-11-08 00:17:41,729 | INFO | root | ✅ Cleaned news | in=data/raw/ecommerce_news_202508.csv out=data/clean/ecommerce_news_202508.csv rows=3
+2025-11-08 00:17:41,729 | INFO | root | No tweet files found in data/raw/
+2025-11-08 00:17:41,729 | INFO | root | No complaint files found in data/raw/
+2025-11-08 00:19:15,172 | INFO | root | news | month=202502 rows=1 file=data/raw/ecommerce_news_202502.csv
+2025-11-08 00:19:15,175 | INFO | root | news | month=202503 rows=2 file=data/raw/ecommerce_news_202503.csv
+2025-11-08 00:19:15,177 | INFO | root | news | month=202504 rows=4 file=data/raw/ecommerce_news_202504.csv
+2025-11-08 00:19:15,178 | INFO | root | news | month=202505 rows=4 file=data/raw/ecommerce_news_202505.csv
+2025-11-08 00:19:15,180 | INFO | root | news | month=202506 rows=5 file=data/raw/ecommerce_news_202506.csv
+2025-11-08 00:19:15,182 | INFO | root | news | month=202507 rows=4 file=data/raw/ecommerce_news_202507.csv
+2025-11-08 00:19:15,184 | INFO | root | news | month=202508 rows=6 file=data/raw/ecommerce_news_202508.csv
+2025-11-08 00:19:15,187 | INFO | root | news | month=202509 rows=11 file=data/raw/ecommerce_news_202509.csv
+2025-11-08 00:19:15,190 | INFO | root | news | month=202510 rows=7 file=data/raw/ecommerce_news_202510.csv
+2025-11-08 00:19:15,193 | INFO | root | news | month=202511 rows=56 file=data/raw/ecommerce_news_202511.csv
+2025-11-08 00:19:21,963 | INFO | root | Downloading Olist Brazilian E-commerce dataset from Kaggle...
+2025-11-08 00:19:22,574 | INFO | root | Saved olist_sellers_dataset.csv to data/raw/olist_sellers_dataset.csv with shape (3095, 4)
+2025-11-08 00:19:22,576 | INFO | root | Saved product_category_name_translation.csv to data/raw/product_category_name_translation.csv with shape (71, 2)
+2025-11-08 00:19:23,233 | INFO | root | Saved olist_orders_dataset.csv to data/raw/olist_orders_dataset.csv with shape (99441, 8)
+2025-11-08 00:19:23,846 | INFO | root | Saved olist_order_items_dataset.csv to data/raw/olist_order_items_dataset.csv with shape (112650, 7)
+2025-11-08 00:19:24,166 | INFO | root | Saved olist_customers_dataset.csv to data/raw/olist_customers_dataset.csv with shape (99441, 5)
+2025-11-08 00:19:27,357 | INFO | root | Saved olist_geolocation_dataset.csv to data/raw/olist_geolocation_dataset.csv with shape (1000163, 5)
+2025-11-08 00:19:27,626 | INFO | root | Saved olist_order_payments_dataset.csv to data/raw/olist_order_payments_dataset.csv with shape (103886, 5)
+2025-11-08 00:19:28,193 | INFO | root | Saved olist_order_reviews_dataset.csv to data/raw/olist_order_reviews_dataset.csv with shape (99224, 7)
+2025-11-08 00:19:28,369 | INFO | root | Saved olist_products_dataset.csv to data/raw/olist_products_dataset.csv with shape (32951, 9)
+2025-11-08 00:19:28,369 | INFO | root | 
+Successfully downloaded and saved 9 tables to data/raw/
+2025-11-08 00:19:28,369 | INFO | root | Available tables: olist_sellers_dataset, product_category_name_translation, olist_orders_dataset, olist_order_items_dataset, olist_customers_dataset, olist_geolocation_dataset, olist_order_payments_dataset, olist_order_reviews_dataset, olist_products_dataset
+2025-11-08 00:19:28,384 | INFO | root | cleaned_structured | in=data/raw/olist_sellers_dataset.csv out=data/clean/olist_sellers_dataset.csv rows=3095
+2025-11-08 00:19:29,149 | INFO | root | cleaned_structured | in=data/raw/olist_orders_dataset.csv out=data/clean/olist_orders_dataset.csv rows=99441
+2025-11-08 00:19:29,878 | INFO | root | cleaned_structured | in=data/raw/olist_order_items_dataset.csv out=data/clean/olist_order_items_dataset.csv rows=112650
+2025-11-08 00:19:30,299 | INFO | root | cleaned_structured | in=data/raw/olist_customers_dataset.csv out=data/clean/olist_customers_dataset.csv rows=99441
+2025-11-08 00:19:34,511 | INFO | root | cleaned_structured | in=data/raw/olist_geolocation_dataset.csv out=data/clean/olist_geolocation_dataset.csv rows=1000163
+2025-11-08 00:19:34,911 | INFO | root | cleaned_structured | in=data/raw/olist_order_payments_dataset.csv out=data/clean/olist_order_payments_dataset.csv rows=103886
+2025-11-08 00:19:35,598 | INFO | root | cleaned_structured | in=data/raw/olist_order_reviews_dataset.csv out=data/clean/olist_order_reviews_dataset.csv rows=99224
+2025-11-08 00:19:35,835 | INFO | root | cleaned_structured | in=data/raw/olist_products_dataset.csv out=data/clean/olist_products_dataset.csv rows=32951
+2025-11-08 00:19:36,366 | INFO | root | 
+Processing news file: data/raw/ecommerce_news_202506.csv
+2025-11-08 00:19:36,366 | INFO | root | Processing news file: data/raw/ecommerce_news_202506.csv
+2025-11-08 00:19:36,368 | INFO | root | Initial rows: 5
+2025-11-08 00:19:36,369 | WARNING | root | No content in 'text' column in data/raw/ecommerce_news_202506.csv, using 'summary' instead
+2025-11-08 00:19:36,369 | INFO | root | Extracting text from HTML links in summary
+2025-11-08 00:19:36,370 | INFO | root | After length filter (min 50 chars): 2 rows
+2025-11-08 00:19:36,562 | INFO | root | ✅ Cleaned news | in=data/raw/ecommerce_news_202506.csv out=data/clean/ecommerce_news_202506.csv rows=2
+2025-11-08 00:19:36,562 | INFO | root | 
+Processing news file: data/raw/ecommerce_news_202507.csv
+2025-11-08 00:19:36,562 | INFO | root | Processing news file: data/raw/ecommerce_news_202507.csv
+2025-11-08 00:19:36,563 | INFO | root | Initial rows: 4
+2025-11-08 00:19:36,563 | WARNING | root | No content in 'text' column in data/raw/ecommerce_news_202507.csv, using 'summary' instead
+2025-11-08 00:19:36,564 | INFO | root | Extracting text from HTML links in summary
+2025-11-08 00:19:36,564 | INFO | root | After length filter (min 50 chars): 2 rows
+2025-11-08 00:19:36,572 | INFO | root | ✅ Cleaned news | in=data/raw/ecommerce_news_202507.csv out=data/clean/ecommerce_news_202507.csv rows=2
+2025-11-08 00:19:36,572 | INFO | root | 
+Processing news file: data/raw/ecommerce_news_202511.csv
+2025-11-08 00:19:36,572 | INFO | root | Processing news file: data/raw/ecommerce_news_202511.csv
+2025-11-08 00:19:36,574 | INFO | root | Initial rows: 56
+2025-11-08 00:19:36,574 | WARNING | root | No content in 'text' column in data/raw/ecommerce_news_202511.csv, using 'summary' instead
+2025-11-08 00:19:36,575 | INFO | root | Extracting text from HTML links in summary
+2025-11-08 00:19:36,575 | INFO | root | After length filter (min 50 chars): 52 rows
+2025-11-08 00:19:36,714 | INFO | root | ✅ Cleaned news | in=data/raw/ecommerce_news_202511.csv out=data/clean/ecommerce_news_202511.csv rows=52
+2025-11-08 00:19:36,714 | INFO | root | 
+Processing news file: data/raw/ecommerce_news_202505.csv
+2025-11-08 00:19:36,714 | INFO | root | Processing news file: data/raw/ecommerce_news_202505.csv
+2025-11-08 00:19:36,715 | INFO | root | Initial rows: 4
+2025-11-08 00:19:36,715 | WARNING | root | No content in 'text' column in data/raw/ecommerce_news_202505.csv, using 'summary' instead
+2025-11-08 00:19:36,716 | INFO | root | Extracting text from HTML links in summary
+2025-11-08 00:19:36,716 | INFO | root | After length filter (min 50 chars): 3 rows
+2025-11-08 00:19:36,724 | INFO | root | ✅ Cleaned news | in=data/raw/ecommerce_news_202505.csv out=data/clean/ecommerce_news_202505.csv rows=3
+2025-11-08 00:19:36,724 | INFO | root | 
+Processing news file: data/raw/ecommerce_news_202504.csv
+2025-11-08 00:19:36,724 | INFO | root | Processing news file: data/raw/ecommerce_news_202504.csv
+2025-11-08 00:19:36,725 | INFO | root | Initial rows: 4
+2025-11-08 00:19:36,725 | WARNING | root | No content in 'text' column in data/raw/ecommerce_news_202504.csv, using 'summary' instead
+2025-11-08 00:19:36,726 | INFO | root | Extracting text from HTML links in summary
+2025-11-08 00:19:36,726 | INFO | root | After length filter (min 50 chars): 4 rows
+2025-11-08 00:19:36,742 | INFO | root | ✅ Cleaned news | in=data/raw/ecommerce_news_202504.csv out=data/clean/ecommerce_news_202504.csv rows=4
+2025-11-08 00:19:36,742 | INFO | root | 
+Processing news file: data/raw/ecommerce_news_202510.csv
+2025-11-08 00:19:36,742 | INFO | root | Processing news file: data/raw/ecommerce_news_202510.csv
+2025-11-08 00:19:36,743 | INFO | root | Initial rows: 7
+2025-11-08 00:19:36,743 | WARNING | root | No content in 'text' column in data/raw/ecommerce_news_202510.csv, using 'summary' instead
+2025-11-08 00:19:36,743 | INFO | root | Extracting text from HTML links in summary
+2025-11-08 00:19:36,744 | INFO | root | After length filter (min 50 chars): 6 rows
+2025-11-08 00:19:36,771 | INFO | root | ✅ Cleaned news | in=data/raw/ecommerce_news_202510.csv out=data/clean/ecommerce_news_202510.csv rows=6
+2025-11-08 00:19:36,771 | INFO | root | 
+Processing news file: data/raw/ecommerce_news_202503.csv
+2025-11-08 00:19:36,771 | INFO | root | Processing news file: data/raw/ecommerce_news_202503.csv
+2025-11-08 00:19:36,772 | INFO | root | Initial rows: 2
+2025-11-08 00:19:36,772 | WARNING | root | No content in 'text' column in data/raw/ecommerce_news_202503.csv, using 'summary' instead
+2025-11-08 00:19:36,772 | INFO | root | Extracting text from HTML links in summary
+2025-11-08 00:19:36,773 | INFO | root | After length filter (min 50 chars): 1 rows
+2025-11-08 00:19:36,776 | INFO | root | ✅ Cleaned news | in=data/raw/ecommerce_news_202503.csv out=data/clean/ecommerce_news_202503.csv rows=1
+2025-11-08 00:19:36,776 | INFO | root | 
+Processing news file: data/raw/ecommerce_news_202502.csv
+2025-11-08 00:19:36,777 | INFO | root | Processing news file: data/raw/ecommerce_news_202502.csv
+2025-11-08 00:19:36,778 | INFO | root | Initial rows: 1
+2025-11-08 00:19:36,778 | WARNING | root | No content in 'text' column in data/raw/ecommerce_news_202502.csv, using 'summary' instead
+2025-11-08 00:19:36,778 | INFO | root | Extracting text from HTML links in summary
+2025-11-08 00:19:36,779 | INFO | root | After length filter (min 50 chars): 1 rows
+2025-11-08 00:19:36,782 | INFO | root | ✅ Cleaned news | in=data/raw/ecommerce_news_202502.csv out=data/clean/ecommerce_news_202502.csv rows=1
+2025-11-08 00:19:36,782 | INFO | root | 
+Processing news file: data/raw/ecommerce_news_202509.csv
+2025-11-08 00:19:36,782 | INFO | root | Processing news file: data/raw/ecommerce_news_202509.csv
+2025-11-08 00:19:36,783 | INFO | root | Initial rows: 11
+2025-11-08 00:19:36,783 | WARNING | root | No content in 'text' column in data/raw/ecommerce_news_202509.csv, using 'summary' instead
+2025-11-08 00:19:36,784 | INFO | root | Extracting text from HTML links in summary
+2025-11-08 00:19:36,784 | INFO | root | After length filter (min 50 chars): 7 rows
+2025-11-08 00:19:36,807 | INFO | root | ✅ Cleaned news | in=data/raw/ecommerce_news_202509.csv out=data/clean/ecommerce_news_202509.csv rows=7
+2025-11-08 00:19:36,807 | INFO | root | 
+Processing news file: data/raw/ecommerce_news_202508.csv
+2025-11-08 00:19:36,807 | INFO | root | Processing news file: data/raw/ecommerce_news_202508.csv
+2025-11-08 00:19:36,808 | INFO | root | Initial rows: 6
+2025-11-08 00:19:36,808 | WARNING | root | No content in 'text' column in data/raw/ecommerce_news_202508.csv, using 'summary' instead
+2025-11-08 00:19:36,808 | INFO | root | Extracting text from HTML links in summary
+2025-11-08 00:19:36,809 | INFO | root | After length filter (min 50 chars): 4 rows
+2025-11-08 00:19:36,821 | INFO | root | ✅ Cleaned news | in=data/raw/ecommerce_news_202508.csv out=data/clean/ecommerce_news_202508.csv rows=4
+2025-11-08 00:19:36,821 | INFO | root | No tweet files found in data/raw/
+2025-11-08 00:19:36,822 | INFO | root | No complaint files found in data/raw/
+2025-11-08 00:19:37,215 | INFO | root | cleaned_structured | in=data/raw/olist_sellers_dataset.csv out=data/clean/olist_sellers_dataset.csv rows=3095
+2025-11-08 00:19:37,974 | INFO | root | cleaned_structured | in=data/raw/olist_orders_dataset.csv out=data/clean/olist_orders_dataset.csv rows=99441
+2025-11-08 00:19:38,705 | INFO | root | cleaned_structured | in=data/raw/olist_order_items_dataset.csv out=data/clean/olist_order_items_dataset.csv rows=112650
+2025-11-08 00:19:39,124 | INFO | root | cleaned_structured | in=data/raw/olist_customers_dataset.csv out=data/clean/olist_customers_dataset.csv rows=99441
+2025-11-08 00:19:43,293 | INFO | root | cleaned_structured | in=data/raw/olist_geolocation_dataset.csv out=data/clean/olist_geolocation_dataset.csv rows=1000163
+2025-11-08 00:19:43,729 | INFO | root | cleaned_structured | in=data/raw/olist_order_payments_dataset.csv out=data/clean/olist_order_payments_dataset.csv rows=103886
+2025-11-08 00:19:44,423 | INFO | root | cleaned_structured | in=data/raw/olist_order_reviews_dataset.csv out=data/clean/olist_order_reviews_dataset.csv rows=99224
+2025-11-08 00:19:44,724 | INFO | root | cleaned_structured | in=data/raw/olist_products_dataset.csv out=data/clean/olist_products_dataset.csv rows=32951
